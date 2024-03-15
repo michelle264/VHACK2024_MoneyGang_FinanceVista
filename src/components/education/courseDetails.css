@@ -1,0 +1,71 @@
+.detailBackImage img{
+    width: 100%;
+}
+
+.whiteBackground{
+    width: 90%;
+    height: 100%;
+    background-color: white;
+    position: absolute;
+    left: 50%;
+    top: 90%;
+    transform: translate(-50%, -50%);
+}
+
+.titleDetails{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+    padding: 20px;
+}
+
+.subtitle p{
+    font-family:cursive;
+    font-size: 20px;
+}
+
+.subtitle{
+    padding-left: 30px;
+    padding-bottom: 10px;
+}
+
+.whatYoullLearn{
+    padding-left: 30px;
+    padding-bottom: 10px;
+}
+
+.requirement{
+    padding-left: 30px;
+    padding-bottom: 10px;
+}
+
+.description {
+    padding-left: 30px;
+    /* padding-right: 30px; */
+}
+
+.description p{
+    padding-left: 30px;
+    padding-right: 50px;
+}
+
+.enrollButton {
+    background-color: #5E7BD5;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 70px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+}
+
+.enrollButton p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.FreePhoto1 {
+    width: 100px;
+    /* Add any other styles you need */
+}

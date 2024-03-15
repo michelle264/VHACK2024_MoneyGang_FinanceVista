@@ -1,0 +1,70 @@
+/* navbar.css */
+.navbar {
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 5px 20px; /* Smaller padding to reduce height */
+    height: 40px; /* Smaller height */
+  }
+  
+  .left-section2 {
+    display: flex;
+    align-items: center;
+    margin-left: 50px; /* Adjust the right margin to shift left-section to the right */
+  }
+  
+  .icon img {
+    margin-right: 0px;
+    width: 50px; /* Smaller icon size */
+    height: 50px;
+  }
+  
+  .financialvista {
+    font-weight: bold;
+    margin-right: 20px;
+  }
+  
+  
+  .menu{
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .menu a {
+    display: flex;
+    align-items: center;
+    color: black;
+    text-decoration: none;
+    margin-right: 20px;
+  }
+  
+  .menu p {
+    color: black;
+  }
+  
+  .menu-button1 {
+    background-color: #9ACFFF;
+    color: white; 
+    border: none;
+    border-radius: 20px;
+    padding: 5px 10px;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  .menu-button2 {
+    background-color: #D9D9D9;
+    color: black;
+    border: none;
+    border-radius: 20px;
+    padding: 5px 10px;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+
+  .menu-button:hover {
+    background-color: #333; /* Darken the background on hover */
+  }
+  
