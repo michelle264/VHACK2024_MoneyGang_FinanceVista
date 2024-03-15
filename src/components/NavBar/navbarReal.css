@@ -57,8 +57,18 @@
     display: flex;
     align-items: center;
   }
+
+  .small-icon4{
+    display: flex;
+    align-items: center;
+  }
   
-  .menu-text {
+  .market-text{
     margin-left: 5px; 
+  }
+
+
+  .menu-text {
+    margin-left: -100px; 
   }
   

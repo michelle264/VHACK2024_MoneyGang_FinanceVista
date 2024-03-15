@@ -1,6 +1,7 @@
 import React from 'react';
 import './cover.css'; 
 import logo1 from './mascot.png';
+import { Link } from 'react-router-dom';
 
 class cover extends React.Component {
   render() {
@@ -19,7 +20,8 @@ class cover extends React.Component {
         <div className="frame">
             <div className="frame-2">
               <div className="div-wrapper">
-                <div className="text-wrapper-2">Learn more →</div>
+                {/* JobDetails change to the correcct route */}
+                <Link to="/course" className="text-wrapper-2">Learn more →</Link>
               </div>
             </div>
           </div>

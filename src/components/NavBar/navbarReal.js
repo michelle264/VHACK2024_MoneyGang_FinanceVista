@@ -14,16 +14,25 @@ const NavigationBar=() =>{
 
         </div>
         <div className="menu">
-          <Link to="/listjobjs">
+          <Link to="/about">
             {/* <FaBriefcase className="small-icon"/> */}
-            <p className="menu-text">Jobs</p>
+            <p className="menu-text">About FinanceVista</p>
           </Link>
-          <Link to="/UserProfile">
+          <Link to="/course">
           <div className="small-icon3">
           {/* <img src={profileImage} alt="profile"/>    */}
-          <p className="menu-text">Profile</p>
+          <p className="menu-text">Courses</p>
             </div>
           </Link>
+
+          <Link to="/market">
+          <div className="small-icon4">
+          {/* <img src={profileImage} alt="profile"/>    */}
+          <p className="market-text">Market Data</p>
+            </div>
+          </Link>
+
+
           <Link to="/">
             <i className="small-icon">&#128274;</i>
             <p className="menu-text">Logout</p>
