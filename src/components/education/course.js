@@ -12,7 +12,7 @@ class Course extends React.Component {
       { 
         id: 1,
         title: 'Foundations of Personal Finance',
-        details: 'This course covers the fundamental principles of personal finance, including budgeting, saving, debt management, and goal setting. Learn how to build a solid financial foundation for a secure future.',
+        details: 'Explore fundamental principles of personal finance, including budgeting, saving, debt management, and goal setting. Learn how to build a solid financial foundation for a secure future.',
         type: 'Online Video',
         amount: '13 Online videos',
         image: freeImage
