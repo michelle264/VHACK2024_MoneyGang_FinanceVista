@@ -16,8 +16,8 @@
   
   .icon img {
     margin-right: 10px;
-    width: 30px; /* Smaller icon size */
-    height: 30px;
+    width: 50px; /* Smaller icon size */
+    height: 50px;
   }
   
   .financialvista {
@@ -28,6 +28,7 @@
   .menu{
     display: flex;
     justify-content: space-between;
+
   }
   
   .menu a {
@@ -67,27 +68,44 @@
     margin-left: 5px; 
   }
 
-
-  .menu-text {
-    margin-left: -100px; 
-  }
-
-  .navbar .menu .profile {
-    margin-top: 10px;
-  }
   
   .profile-icon {
     font-size: 24px; /* Adjust as needed to make the icon bigger */
     color: black; /* Change color as needed */
   }
 
-  .menu.vertical-line {
+  .vertical-line {
     height: 30px; /* Adjust height as needed */
     width: 1px; /* Width of the vertical line */
     background-color: black; /* Color of the vertical line */
     margin: 0 10px; /* Adjust margin as needed */
 }
 
+.topContainer{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+
+.logout-link {
+    display: flex;
+    align-items: center; /* Align items vertically in the center */
+    text-decoration: none;
+    color: black; /* Change color as needed */
+  }
+  
+  .logout-link i {
+    margin-right: 5px; /* Adjust margin between icon and text */
+  }
+
+  .line{
+    border-left: 1.5px solid black;
+    height: 25px;
+    margin-top: 15px;
+    margin-right: 10px;
+  }
+
+  
   
   
   
