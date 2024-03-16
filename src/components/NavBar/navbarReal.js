@@ -1,7 +1,10 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { VscAccount } from "react-icons/vsc";
 import './navbarReal';
 import icon from './icon.png';
+import profileImage from './profile.png';
+
 
 const NavigationBar=() =>{
     return(
@@ -10,7 +13,11 @@ const NavigationBar=() =>{
           <div className="icon">
             <img src={icon} alt="icon" />
           </div>
+          <div className='link'>
+          <Link to="/about" style={{ textDecoration: 'none' , color:'black'}}>
           <strong className="financialtitle">FinanceVista</strong>
+          </Link>
+          </div>
 
         </div>
         <div className="menu">
@@ -32,6 +39,9 @@ const NavigationBar=() =>{
             </div>
           </Link>
 
+          <div className="profile">
+          <VscAccount className="profile-icon" style={{ fontSize: '24px', marginTop: '15px', marginRight:'10px' }}/> 
+          </div>
 
           <Link to="/">
             <i className="small-icon">&#128274;</i>

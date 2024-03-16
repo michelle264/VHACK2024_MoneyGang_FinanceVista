@@ -1,0 +1,28 @@
+/* navbar.css */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 5px 20px; /* Smaller padding to reduce height */
+    height: 40px; /* Smaller height */
+  }
+  
+  .left-section2 {
+    display: flex;
+    align-items: center;
+    margin-left: 50px; /* Adjust the right margin to shift left-section to the right */
+  }
+  
+  .icon img {
+    /* margin-right: 10px; */
+    width: 50px; /* Smaller icon size */
+    height: 50px;
+  }
+  
+  .financeVistaTitle {
+    font-weight: bold;
+    margin-right: 20px;
+  }
+  
+  

@@ -1,7 +1,7 @@
 // NavigationBar.js
 import React from 'react';
 import { Link } from 'react-router-dom';
-import './navbarHome.css';
+import './navbarLoginRegister.css';
 import icon from './icon.png';
 
 const NavigationBar = () => {
@@ -11,16 +11,9 @@ const NavigationBar = () => {
         <div className="icon">
           <img src={icon} alt="icon" />
         </div>
-        <strong className="financialvista">FinanceVista</strong>
+        <strong className="financeVistaTitle">FinanceVista</strong>
       </div>
-      <div className="menu">
-      <Link to="/login">
-          <button className="menu-button1">Log in</button>
-        </Link>
-        <Link to="/register">
-          <button className="menu-button2">Register</button>
-        </Link>
-      </div>
+
     </nav>
   );
 };

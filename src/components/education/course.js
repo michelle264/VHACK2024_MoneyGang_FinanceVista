@@ -97,7 +97,7 @@ class Course extends React.Component {
                 <div className="courseDetails">
                   <div className="courseTitle">{course.title}</div>
                   <div className="courseDescription">{course.details}</div>
-                  <div className='blueback'>
+                  <div className='conCourse'>
                   <div className="courseType">{course.type}</div>
                   <div className="courseAmount">{course.amount}</div>
                   <img
@@ -118,7 +118,7 @@ class Course extends React.Component {
                 <div className="courseDetails">
                   <div className="courseTitle">{course.title}</div>
                   <div className="courseDescription">{course.details}</div>
-                  <div className='blueback'>
+                  <div className='conCourse'>
                   <div className="courseType">{course.type}</div>
                   <div className="courseAmount">{course.amount}</div>
                   <img

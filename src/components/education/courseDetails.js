@@ -10,9 +10,11 @@ class courseDetails extends React.Component {
                 <img src={details} alt='background image' />
                 <div className='whiteBackground'>
                     <div className='titleDetails'>Foundations of Personal Finance
+                    <div className='FreePhoto1' >
+                    <img src={freeImage} alt='free photo'/>
                     </div>
-                    {/* <img src={freeImage} alt='free photo' className='FreePhoto1' /> */}
-            
+                    </div>
+                    
                     
 
                     <div className='subtitle'>

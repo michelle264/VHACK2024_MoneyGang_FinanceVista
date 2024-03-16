@@ -21,7 +21,7 @@ class cover extends React.Component {
             <div className="frame-2">
               <div className="div-wrapper">
                 {/* JobDetails change to the correcct route */}
-                <Link to="/course" className="text-wrapper-2">Learn more →</Link>
+                <Link to="/about" className="text-wrapper-2">Learn more →</Link>
               </div>
             </div>
           </div>

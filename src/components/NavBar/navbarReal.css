@@ -71,4 +71,23 @@
   .menu-text {
     margin-left: -100px; 
   }
+
+  .navbar .menu .profile {
+    margin-top: 10px;
+  }
+  
+  .profile-icon {
+    font-size: 24px; /* Adjust as needed to make the icon bigger */
+    color: black; /* Change color as needed */
+  }
+
+  .menu.vertical-line {
+    height: 30px; /* Adjust height as needed */
+    width: 1px; /* Width of the vertical line */
+    background-color: black; /* Color of the vertical line */
+    margin: 0 10px; /* Adjust margin as needed */
+}
+
+  
+  
   
