@@ -3,11 +3,35 @@ import { Link } from 'react-router-dom';
 import { VscAccount } from "react-icons/vsc";
 import './navbarReal.css';
 import icon from './icon.png';
+import { useState } from 'react';
+import Button from 'react-bootstrap/Button';
+import Offcanvas from 'react-bootstrap/Offcanvas';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 
+
+  
 const NavigationBar=() =>{
+    const [show, setShow] = useState(false);
+
+    const handleClose = () => setShow(false);
+    const handleShow = () => setShow(true);
     return(
-        <nav className="navbar">
+        <>
+         <Button variant="primary" onClick={handleShow}>
+        Launch
+      </Button>
+
+      <Offcanvas show={show} onHide={handleClose}>
+        <Offcanvas.Header closeButton>
+          <Offcanvas.Title>Offcanvas</Offcanvas.Title>
+        </Offcanvas.Header>
+        <Offcanvas.Body>
+          Some text as placeholder. In real life you can have the elements you
+          have chosen. Like, text, images, lists, etc.
+        </Offcanvas.Body>
+      </Offcanvas>
+      <nav className="navbar">
         <div className="left-section2">
           <div className="icon">
             <img src={icon} alt="icon" />
@@ -52,6 +76,8 @@ const NavigationBar=() =>{
 
         
       </nav>
+        </>
+  
     );
   };
   
