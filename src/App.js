@@ -9,6 +9,14 @@ import CourseDetail from './components/education/courseDetails';
 import About from './components/about/about';
 import Login from './components/Login/login';
 import Register from './components/Register/register';
+import Navbar from './components/NavbarComponent';
+import StockPageContainer from "./components/StockPageContainer";
+import News from "./components/News";
+import ChartComponent from "./components/ChartComponent";
+import SimulationAccount from "./components/SimulationAccount";
+import Transaction from "./components/Transaction";
+import 'bootstrap/dist/css/bootstrap.min.css';
+import './components/TradingStyles.css'
 
 function App() {
   return (
@@ -63,7 +71,17 @@ function App() {
             </>
           }
         /> 
-
+<Route path="/market"  element={
+  <>
+  <NavBarReal />
+  <Navbar/>
+  <StockPageContainer/>
+  </>
+  } />
+<Route path="/News"  element={<><NavBarReal/><Navbar/><News/></>} />
+<Route path="/ChartComponent"  element={<><NavBarReal/><Navbar/><ChartComponent/></>}/>
+<Route path="/SimulationAccount"  element={<><NavBarReal/><Navbar/><SimulationAccount/></>}/>
+<Route path="/Transaction"  element={<><NavBarReal/><Navbar/><Transaction/></>}/>
 <Route
           path="/register"
           element={

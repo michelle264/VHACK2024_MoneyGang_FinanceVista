@@ -1,0 +1,203 @@
+h1{
+    color: #1D3557;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+h5{
+    color: #1D3557 !important;
+}
+
+h6{
+    color: #1D3557 !important;
+}
+
+.w_tradingPagesBackground{
+    margin-top: 100px;
+    margin-bottom: 60px;
+}
+
+.w_tradingPagesBackground::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(./bg.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    opacity: 0.4;
+    z-index: -1; 
+  }
+
+
+.w_cardTitle{
+    color: #4685FF !important;
+    font-family: cursive;
+}
+
+.w_cardBody{
+    box-shadow: -5px 5px 0px 0px black;
+}
+.w_cardContainer{
+    margin-left: 15px;
+}
+.w_pagination{
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.w_sidebar{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    height: 100%;
+    z-index: 99;
+    max-width: 300px;
+    margin-top: 100px;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+.w_newspage{
+    margin-right: 320px;
+}
+
+.w_ads{
+    min-height: 320px;
+    background-color: white;
+    background-image: url('https://images.unsplash.com/photo-1602143407151-7111542de6e8?q=80&w=2487&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-size: auto 350px;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.w_navbarComp{
+    background-color: white;
+    position: fixed;
+    padding: 10px;
+    top: 40px;
+    left: 0;
+    right: 0;
+    width: 100%;
+    z-index: 100;
+    box-shadow: 0px 2px 0px 0px rgba(0,0,0,0.1);
+}
+
+.w_cardHeader{
+    background-color: white;
+}
+.w_cardHeaderText{
+    box-shadow: -5px 0px 0px 0px red;
+
+}
+.w_newsImgs{
+    max-height: 350px;
+}
+
+.w_simulationContainer{
+    margin: 5% 10% 50px 10%;
+}
+
+.w_lineChart{
+    width: 100%;
+    height: 600px;
+    position: relative;
+    margin-bottom: 15px;
+}
+
+
+.w_orderPadContainer{
+    min-width: 300px;
+}
+
+.w_orderPad{
+    border-style: solid;
+    border-color: #1D3557;
+    box-shadow: -5px 5px 0px 0px rgba(0,0,0,0.2);
+    padding: 10px;
+    background-color: white;
+}
+
+.w_btn{
+    margin: 10px 10px 0 0;
+}
+.w_transactionTableContainer{
+    margin: 15% 15px 0px 15px;
+}
+
+.react-bootstrap-table {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.react-bootstrap-table thead th{
+    background-color: #5E7BD5 !important;
+    color: white !important;
+}
+
+Table thead th{
+    background-color: #5E7BD5 !important;
+    color: white !important;
+}
+
+.react-bootstrap-table #w_stockTable{
+    max-height: 500px;
+}
+
+.w_searchBarContainer{
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.w_simulationTableContainer{
+    margin-left: 20px ;
+    margin-right: 20px ;
+}
+.w_adsCard{
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+@media only screen and (max-width: 800px) {
+    .w_newspage{
+        margin-right: 10px;
+    }
+
+    .w_sidebar{
+        position: relative;
+        margin: 10px;
+        left: 0;
+        right: 0;
+        width: 100%;
+        z-index: 0;
+        max-width: fit-content;
+    }
+
+    .w_cardBody{
+        box-shadow: -5px 5px 0px 0px black;
+        max-height: fit-content;
+    }
+
+    .w_newsImgs{
+        max-height: 600px;
+    }
+    .w_sideContainer{
+        width: 50%;
+    }
+  }
+
+  @media only screen and (max-width: 640px) {
+    .w_sidebar{
+        margin: auto;
+        margin-left: 5%;
+        margin-right: 5%;
+        max-width: fit-content;
+    }
+  }
+  

@@ -7,7 +7,7 @@ import icon from './icon.png';
 
 const NavigationBar=() =>{
     return(
-        <nav className="navbar">
+        <nav className="navbarOwn">
         <div className="left-section2">
           <div className="icon">
             <img src={icon} alt="icon" />
