@@ -57,19 +57,22 @@
     font-size: 18px;
     border-radius: 70px;
     cursor: pointer;
-    margin-top: 10px;
-    margin-bottom: 20px;
     margin-left: 30px;
 }
 
 .enrollButton p{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 20px;
 }
 
 .FreePhoto1 img {
-    width: 300px;
+    width: 30%; /* Adjust as needed */
+    height: auto; /* This will maintain aspect ratio */
+    max-width: 300px; /* Set a maximum width */
     position: absolute;
-    height: 300px;
-    margin-left: 800px;
-    margin-top: -50px
+    right: 0; /* Align to the right */
+    margin-right: 5%; /* Adjust as needed */
+    margin-top: -5%; /* Adjust as needed */
 }
+
+

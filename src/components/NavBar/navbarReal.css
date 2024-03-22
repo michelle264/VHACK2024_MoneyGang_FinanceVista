@@ -1,6 +1,10 @@
 /* navbar.css */
-.navbar {
-    display: flex;
+.navbarOwn {
+    position: fixed !important;
+    top:0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
     justify-content: space-between;
     align-items: center;
     background-color: white;
@@ -28,7 +32,6 @@
   .menu{
     display: flex;
     justify-content: space-between;
-
   }
   
   .menu a {
@@ -41,6 +44,8 @@
   
   .menu p {
     color: black;
+    margin-top: 15px;
+    font-weight: 500;
   }
   
   .small-icon {
@@ -105,6 +110,16 @@
     margin-right: 10px;
   }
 
+  .menu-text2{
+    margin-top: 15px;
+  }
+
+  .subscribe p{
+    color: #915907;
+    text-decoration: underline;
+    margin-top: 15px;
+    margin-right: 15px;
+  }
   
   
   

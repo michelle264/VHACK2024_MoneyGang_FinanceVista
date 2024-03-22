@@ -1,5 +1,5 @@
 /* navbar.css */
-.navbar {
+.navbarOwn {
     display: flex;
     justify-content: space-between;
     align-items: center;

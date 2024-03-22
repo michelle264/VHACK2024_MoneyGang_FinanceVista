@@ -10,9 +10,9 @@ class cover extends React.Component {
         <div className="background">
         <div className="container">
           <div className="text-container">
-            <p className="text-wrapper">Empowering </p>
-            <p className="text-wrapper">Your Financial Vision</p>
-            <p className="text-wrapper">With FinanceVista</p>
+            <p className="text-wrapperfirst">Empowering </p>
+            <p className="text-wrappersecond">Your Financial Vision</p>
+            <p className="text-wrapperthird">With FinanceVista</p>
           </div>
           <img src={logo1} alt="Big Logo" className="big-logo" />
       
