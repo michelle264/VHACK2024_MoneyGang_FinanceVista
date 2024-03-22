@@ -75,9 +75,10 @@
         padding: 70px;
         margin-top: 60px;
         margin-left: 40px;
+        padding-left: 0px;
   }
   
-  .text-wrapper{
+  .text-wrapperfirst{
   color: #000000;
   font-family: "Days One-Regular", Helvetica;
   font-size: 57.2px;
@@ -85,6 +86,24 @@
   letter-spacing: 1px;
   line-height: 1px;
   }
+
+  .text-wrappersecond{
+    color: #000000;
+    font-family: "Days One-Regular", Helvetica;
+    font-size: 57.2px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-top: 40px
+    }
+
+    .text-wrapperthird{
+      color: #000000;
+      font-family: "Days One-Regular", Helvetica;
+      font-size: 57.2px;
+      font-weight: 700;
+      letter-spacing: 1px;
+      margin-top: -10px
+      }
 
 .frame {
     align-items: flex-start;
@@ -117,6 +136,7 @@
     padding: 5.68px 15.55px;
     position: relative;
     bottom: 80px;
+    margin-left: 15px;
   }
   
 .text-wrapper-2 {

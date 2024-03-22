@@ -45,6 +45,10 @@ const NavigationBar=() =>{
           </div>
 
           <Link to="/" className="logout-link">
+          <div className='subscribe'>
+            <p>Try Premium!</p>
+            </div>
+
           <VscAccount className="profile-icon" style={{ fontSize: '24px', marginTop: '5px', marginRight:'10px' }}/> 
             <i className="small-icon">&#128274;</i>
             <p className="menu-text2">Logout</p>

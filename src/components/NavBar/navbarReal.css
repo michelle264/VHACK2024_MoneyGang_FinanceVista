@@ -19,7 +19,7 @@
   }
   
   .icon img {
-    margin-right: 10px;
+    /* margin-right: 10px; */
     width: 50px; /* Smaller icon size */
     height: 50px;
   }
@@ -44,6 +44,8 @@
   
   .menu p {
     color: black;
+    margin-top: 15px;
+    font-weight: 500;
   }
   
   .small-icon {
@@ -108,6 +110,16 @@
     margin-right: 10px;
   }
 
+  .menu-text2{
+    margin-top: 15px;
+  }
+
+  .subscribe p{
+    color: #915907;
+    text-decoration: underline;
+    margin-top: 15px;
+    margin-right: 15px;
+  }
   
   
   
